@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PdfTronHelper", "PdfTronHelper\PdfTronHelper.vcproj", "{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestPdfTronHelper", "TestPdfTronHelper\TestPdfTronHelper.vcproj", "{1FA7D8A8-B1D8-4507-8F93-BEFB309003EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82} = {CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}.Debug|Win32.Build.0 = Debug|Win32
+		{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}.Release|Win32.ActiveCfg = Release|Win32
+		{CD69C0C7-C6EC-45DE-B448-4A7FB7D0CF82}.Release|Win32.Build.0 = Release|Win32
+		{1FA7D8A8-B1D8-4507-8F93-BEFB309003EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FA7D8A8-B1D8-4507-8F93-BEFB309003EB}.Debug|Win32.Build.0 = Debug|Win32
+		{1FA7D8A8-B1D8-4507-8F93-BEFB309003EB}.Release|Win32.ActiveCfg = Release|Win32
+		{1FA7D8A8-B1D8-4507-8F93-BEFB309003EB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
